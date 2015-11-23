@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" lang="es-es">
+<title>Vocales</title>
+<style type="text/css">
+<!--
+.Estilo1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 90px;
+}
+.Estilo10 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+.Estilo12 {color: #FF0000; font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; font-weight: bold; }
+.Estilo15 {font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; }
+-->
+</style>
+<style type="text/css">
+    html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+ 
+    #full-screen-background-image {
+        z-index: -999;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+</style>
+</head>
+<!--<audio src="audio/fondo2.mp3" autoplay volumen="0.1"></audio> -->
+<body>
+<img alt="full screen background image" src="imagen/fondo.jpg" id="full-screen-background-image" />
+      
+      <tr>
+        <td><div align="center" class="Estilo1">
+          <p>    
+            <audio id="sonidoa" src="audio/vocales/a.mp3"></audio>        
+            <a href="javascript:document.getElementById('sonidoa').play();"><img src="imagen/vocales/a.png" width="25%" height="25%" ></a>
+          </p>
+        </div></td>
+        <td><div align="center" class="Estilo1">
+          <p>
+            
+            <audio id="sonidoe" src="audio/vocales/e.mp3"></audio>        
+          
+            <a href="javascript:document.getElementById('sonidoe').play();"><img src="imagen/vocales/e.png" width="25%" height="25%" ></a>
+          </p>
+        </div></td>
+        <td><div align="center" class="Estilo1">
+          <p>
+            <audio id="sonidoi" src="audio/vocales/i.mp3"></audio>        
+            <a href="javascript:document.getElementById('sonidoi').play();"><img src="imagen/vocales/i.png" width="15%" height="15%" ></a>
+          </p>
+        </div></td>
+        </tr>
+        <tr>
+        <td><div align="center" class="Estilo1">
+          <p>
+            <audio id="sonidoo" src="audio/vocales/o.mp3"></audio> 
+            <a href="javascript:document.getElementById('sonidoo').play();"><img src="imagen/vocales/o.png" width="25%" height="25%" ></a>
+          </p>
+        </div></td>
+        <td><div align="center" class="Estilo1">
+          <p>            
+            <audio id="sonidou" src="audio/vocales/u.mp3"></audio>        
+            <a href="javascript:document.getElementById('sonidou').play();"><img src="imagen/vocales/u.png" width="25%" height="25%" ></a>           
+          </p>
+        </div></td>
+      </tr>
+       <tr>
+      <td><div align="center" class="Estilo1">
+      <form name="form7" action="salir.php" method="get">
+     	<input type="submit" class="Estilo4" value="SALIR AL MENU PRINCIPAL">
+      </form>
+      </div>
+      </td>
+    </tr>
+</table>
+</body>
+</html>
